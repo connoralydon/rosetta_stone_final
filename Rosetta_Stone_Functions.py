@@ -31,5 +31,3 @@ def load_rosetta_stone_data():
     rosetta_stone_data["launch_app_interactions"] = rosetta_stone_data["launch_app_interactions"].astype("int64")
     rosetta_stone_data["purchase_amount_usd_imputed"] = rosetta_stone_data["purchase_amount_usd_imputed"].astype("int64")
     return rosetta_stone_data
-
-rosetta_stone_data = type_rosetta_data()
